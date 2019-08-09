@@ -4,5 +4,5 @@ cd /home/ubuntu/CICD_New_Devops
 git pull
 #export env
 set -o allexport
-source env
+source /home/ubuntu/CICD_New_Devops/env
 set +o allexport
