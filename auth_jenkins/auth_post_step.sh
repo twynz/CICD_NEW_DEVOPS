@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSITORY=52.62.225.85:5000/auth-test:${Tag}
+REPOSITORY=13.239.36.144:5000/auth-test:${Tag}
 # build auth image
 cat > Dockerfile << EOF
 FROM mcr.microsoft.com/java/maven:8u192-zulu-debian9
