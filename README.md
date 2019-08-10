@@ -19,4 +19,13 @@ Docker Private Registry:
      
 2. Push Image:
      
+     add https trust for docker registry host ip
      
+    1). vim /etc/docker/daemon.json
+       
+       daemon.json 
+       {"insecure-registries":["host_ip:5000"]}
+     
+    2). sudo service docker restart
+       
+       sudo docker push 52.62.225.85:5000/auth-test:latest
